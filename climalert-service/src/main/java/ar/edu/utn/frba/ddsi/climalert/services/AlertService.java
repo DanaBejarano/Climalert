@@ -15,7 +15,7 @@ public class AlertService {
     private static final Logger log = LoggerFactory.getLogger(AlertService.class);
 
     private static final double TEMP_LIMITE = 35.0;
-    private static final int HUMEDAD_LIMITE = 60;
+    private static final int HUMEDAD_LIMITE = 60 ;
 
     private final WeatherRecordRepository repository;
     private final EmailService emailService;
