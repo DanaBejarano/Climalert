@@ -25,7 +25,7 @@ public class AlertService {
         this.emailService = emailService;
     }
 
-    @Scheduled(fixedRate = 60_000) // 1 minuto
+    @Scheduled(fixedRate = 60_000) // 1 minutito
     public void analizarUltimoClima() {
         Optional<WeatherRecord> ultimo = repository.findTopByOrderByRetrievedAtDesc();
 
