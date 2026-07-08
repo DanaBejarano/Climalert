@@ -46,6 +46,7 @@ public class AlertService {
         }
     }
 
+
     private boolean esCondicionCritica(WeatherRecord record) {
         return record.getTemperatureC() > TEMP_LIMITE && record.getHumidity() > HUMEDAD_LIMITE;
     }
